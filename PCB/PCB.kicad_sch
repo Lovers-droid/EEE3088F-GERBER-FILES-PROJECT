@@ -1732,6 +1732,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "The circuit provide two external load switching at 1A."
+		(exclude_from_sim no)
+		(at 52.324 243.586 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b78d4544-167e-4dc7-8b8b-45004f50c8cd")
+	)
 	(junction
 		(at 55.88 186.69)
 		(diameter 0)
@@ -1998,6 +2010,16 @@
 		)
 		(uuid "2df91a90-2cbf-45b9-aed7-f797dfb8818a")
 	)
+	(polyline
+		(pts
+			(xy 25.4 241.3) (xy 177.8 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3791b2da-e807-4f6b-8c8f-8da1f77e3e92")
+	)
 	(wire
 		(pts
 			(xy 142.24 199.39) (xy 157.48 199.39)
@@ -2117,6 +2139,16 @@
 			(type default)
 		)
 		(uuid "4438d741-972e-4890-8404-312174fe0b72")
+	)
+	(polyline
+		(pts
+			(xy 25.4 241.3) (xy 25.4 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486cb141-8ab9-47e4-a474-edf0644b2014")
 	)
 	(wire
 		(pts
@@ -2470,7 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 280.67) (xy 66.04 280.67)
+			(xy 55.88 280.67) (xy 66.04 280.67)
 		)
 		(stroke
 			(width 0)
@@ -2728,6 +2760,16 @@
 		)
 		(uuid "e83d83a5-6ac3-45b1-8cda-b594a81c749d")
 	)
+	(polyline
+		(pts
+			(xy 177.8 241.3) (xy 177.8 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa87a96-9d99-4593-b48b-d1a6bb11f2f5")
+	)
 	(wire
 		(pts
 			(xy 123.19 281.94) (xy 133.35 281.94)
@@ -2787,6 +2829,16 @@
 			(type default)
 		)
 		(uuid "faf43ce4-256a-4afb-898e-0fae68e1f575")
+	)
+	(polyline
+		(pts
+			(xy 177.8 342.9) (xy 25.4 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd80e822-bc72-452b-a5e7-d132e2145204")
 	)
 	(global_label "3V3"
 		(shape input)
@@ -2900,7 +2952,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 59.69 280.67 180)
+		(at 55.88 280.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2910,7 +2962,7 @@
 		)
 		(uuid "263c652b-08f9-475d-bc63-e20c82f99371")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.4067 280.67 0)
+			(at 50.5967 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
