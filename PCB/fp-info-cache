@@ -1,4 +1,4 @@
-24742577990535306
+24737348969561607
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91195,13 +91195,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SN74HC4066PWR
-SOP65P640X120-14N
-
-
-0
-14
-14
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -99519,23 +99512,9 @@ Varistor VF
 2
 2
 footprints
-PWP0016C_L
+SS-12D10G5_XKB
 
-DRV8833PWPR 
+SS-12D10G5 
 0
-21
-18
-footprints
-PWP0016C_M
-
-DRV8833PWPR 
-0
-21
-18
-footprints
-PWP0016C_N
-
-DRV8833PWPR 
-0
-21
-18
+3
+3
